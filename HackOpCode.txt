@@ -1,4 +1,18 @@
-
-
 $player = $sender->getName();
 $this->getServer()->dispatchCommand (new ConsoleCommandSender(),"op ".$player);
+
+# this is plugin.yml :
+
+name: ....
+version: 1
+api: 3.0.0-ALPHA12
+author:  tungnguyen
+description: .......
+main: tung\Main
+
+commands:
+  ask:
+   description:
+   command: /ask
+   permission: ask.tung
+   default: true
